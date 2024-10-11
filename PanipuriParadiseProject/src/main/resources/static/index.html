@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panipuri Paradise</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Correct link to the CSS file -->
+</head>
+<body>
+    <h1>Welcome to Panipuri Paradise!</h1>
+    <h2>Click on Generate QR Code for Menu</h2>
+    <button id="generateQRButton">Generate QR Code</button>
+    <div id="qrCodeContainer"></div>
+
+    <script>
+        document.getElementById('generateQRButton').onclick = function() {
+            const menuUrl = 'http://localhost:8080/menu.html'; 
+            fetch('/generate-qr?url=' + encodeURIComponent(menuUrl))
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('qrCodeContainer').innerHTML = data;
+                })
+                .catch(error => console.error('Error fetching QR code:', error));
+        };
+    </script>
+</body>
+</html>

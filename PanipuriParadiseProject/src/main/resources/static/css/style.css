@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ffeb3b, #ffc107); /* Gradient background */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #d32f2f; /* Dark Red color */
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+}
+
+button {
+    background-color: #d32f2f; /* Dark Red color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #c62828; /* Darker Red */
+    color: #ffeb3b; /* Change text color on hover */
+}
+
+#qrCodeContainer {
+    margin-top: 30px;
+}
+
+img {
+    margin-top: 20px;
+    border: 5px solid #1976d2; /* Blue color */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow */
+    transition: transform 0.3s; /* Smooth transition */
+}
+
+img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
