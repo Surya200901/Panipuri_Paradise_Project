@@ -1,8 +1,8 @@
 # Use Maven to build the application
 FROM maven:3.9.8-amazoncorretto-17-al2023 AS build
 WORKDIR /app
-COPY pom.xml .
-COPY src ./src
+COPY PanipuriParadiseProject/pom.xml .
+COPY PanipuriParadiseProject/src ./src
 RUN mvn clean package -DskipTests
 
 # Use OpenJDK to run the application
