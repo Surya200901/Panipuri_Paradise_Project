@@ -62,11 +62,11 @@ public class QRCodeController {
                 "    box-shadow: 0 12px 50px rgba(0, 0, 0, 0.5);" +
                 "}" +
                 "h2 {" +
-                "    color: #FFD700;" + // Updated to a bright yellow color for better visibility
+                "    color: #fff;" +
                 "    margin-bottom: 20px;" +
-                "    font-size: 32px;" + // Increased font size for the word "Menu"
+                "    font-size: 26px;" +
                 "    font-weight: bold;" +
-                "    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);" + // Stronger shadow for better visibility
+                "    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);" +
                 "    border-bottom: 2px solid #007BFF;" +
                 "    padding-bottom: 10px;" +
                 "}" +
@@ -104,6 +104,7 @@ public class QRCodeController {
                 "    font-weight: bold;" +
                 "    color: #007BFF;" +
                 "    font-size: 18px;" +
+                "    margin-left: 5px;" + // Add some space before the price
                 "}" +
                 "</style>" +
                 "</head>" +
@@ -111,11 +112,11 @@ public class QRCodeController {
                 "<div class='menu-container'>" +
                 "<h2>Menu</h2>" +
                 "<ul>" +
-                "<li><img src='https://images.pexels.com/photos/17184404/pexels-photo-17184404/free-photo-of-deep-fried-bread-pani-puri-with-chickpea-filling-served-with-spread.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Panipuri'> Panipuri <span class='price'>₹30</span></li>" +
-                "<li><img src='https://images.pexels.com/photos/13063315/pexels-photo-13063315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Bhel Puri'> Bhel Puri <span class='price'>₹40</span></li>" +
-                "<li><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrXp7d6jIeWUS6CQiajKwaWM29tBuQLRy6kYrYf7VtMhrjA12hqycSot2uBnsQy6I_tFbd5uGNhXBgaElA-hHxWCB2H-x1kb3sZQJTY4BSYDCdjSJKqsPYZkTNqNoQH8gSvCpCZ9y6kK2q/s320/IMG_20200106_183637.jpg' alt='Sev Puri'> Sev Puri <span class='price'>₹40</span></li>" +
-                "<li><img src='https://i0.wp.com/www.tomatoblues.com/wp-content/uploads/2021/01/masala-poori-chaat-2-scaled.jpg?w=1440&ssl=1' alt='Chaat'> Chaat <span class='price'>₹30</span></li>" +
-                "<li><img src='https://chaiandchurros.com/wp-content/uploads/2021/06/GolGappayPic-1024x1536.jpeg' alt='Sweet Puri'> Sweet Puri <span class='price'>₹30</span></li>" +
+                "<li><img src='https://images.pexels.com/photos/17184404/pexels-photo-17184404/free-photo-of-deep-fried-bread-pani-puri-with-chickpea-filling-served-with-spread.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Panipuri'> Panipuri - <span class='price'>₹30</span></li>" +
+                "<li><img src='https://images.pexels.com/photos/13063315/pexels-photo-13063315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Bhel Puri'> Bhel Puri - <span class='price'>₹40</span></li>" +
+                "<li><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrXp7d6jIeWUS6CQiajKwaWM29tBuQLRy6kYrYf7VtMhrjA12hqycSot2uBnsQy6I_tFbd5uGNhXBgaElA-hHxWCB2H-x1kb3sZQJTY4BSYDCdjSJKqsPYZkTNqNoQH8gSvCpCZ9y6kK2q/s320/IMG_20200106_183637.jpg' alt='Sev Puri'> Sev Puri - <span class='price'>₹40</span></li>" +
+                "<li><img src='https://i0.wp.com/www.tomatoblues.com/wp-content/uploads/2021/01/masala-poori-chaat-2-scaled.jpg?w=1440&ssl=1' alt='Chaat'> Chaat - <span class='price'>₹30</span></li>" +
+                "<li><img src='https://chaiandchurros.com/wp-content/uploads/2021/06/GolGappayPic-1024x1536.jpeg' alt='Sweet Puri'> Sweet Puri - <span class='price'>₹30</span></li>" +
                 "</ul>" +
                 "</div>" +
                 "</body>" +
