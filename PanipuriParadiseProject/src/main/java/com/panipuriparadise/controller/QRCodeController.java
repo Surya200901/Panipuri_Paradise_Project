@@ -13,7 +13,7 @@ public class QRCodeController {
     // End point to generate the QR code
     @GetMapping("/generate-qr")
     public String generateQRCode() {
-        String menuUrl = "https://panipuri-paradise.onrender.com/menu.html"; // URL to the menu endpoint
+        String menuUrl = "https://panipuri-paradise.onrender.com/menu"; // Updated URL to the menu endpoint
         int width = 300;
         int height = 300;
         String base64Image;
@@ -31,17 +31,17 @@ public class QRCodeController {
     @GetMapping("/menu")
     public String showMenu() {
         return "<html>" +
-               "<head><title>Menu</title></head>" +
-               "<body>" +
-               "<h2>Menu</h2>" +
-               "<ul>" +
-               "<li>Panipuri - ₹30</li>" +
-               "<li>Bhel Puri - ₹40</li>" +
-               "<li>Sev Puri - ₹40</li>" +
-               "<li>Chaat - ₹30</li>" +
-               "<li>Sweet Puri - 30>"+
-               "</ul>" +
-               "</body>" +
-               "</html>";
+                "<head><title>Menu</title></head>" +
+                "<body>" +
+                "<h2>Menu</h2>" +
+                "<ul>" +
+                "<li>Panipuri - ₹30</li>" +
+                "<li>Bhel Puri - ₹40</li>" +
+                "<li>Sev Puri - ₹40</li>" +
+                "<li>Chaat - ₹30</li>" +
+                "<li>Sweet Puri - ₹30</li>" + // Fixed the syntax error here
+                "</ul>" +
+                "</body>" +
+                "</html>";
     }
 }
