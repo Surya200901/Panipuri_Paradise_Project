@@ -54,7 +54,7 @@ public class QRCodeController {
                 "    padding: 30px;" + // Increased padding
                 "    width: 400px;" +
                 "    text-align: center;" +
-                "    border: 2px solid rgba(255, 255, 255, 0.5);" + // Light border
+                "    border: 4px solid rgba(255, 255, 255, 0.8);" + // Light border added
                 "    transition: transform 0.3s, box-shadow 0.3s;" + // Transition effects
                 "}" +
                 ".menu-container:hover {" + // Hover effect for the container
@@ -85,6 +85,7 @@ public class QRCodeController {
                 "    padding: 10px;" +
                 "    border-radius: 5px;" + // Rounded corners for items
                 "    transition: background-color 0.3s;" + // Transition for hover effect
+                "    background-color: rgba(0, 0, 0, 0.5);" + // Background for better text visibility
                 "}" +
                 "li:hover {" + // Hover effect for list items
                 "    background-color: rgba(255, 255, 255, 0.2);" + // Light background on hover
@@ -120,5 +121,6 @@ public class QRCodeController {
                 "</body>" +
                 "</html>";
     }
+
 
 }
