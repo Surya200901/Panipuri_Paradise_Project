@@ -46,27 +46,27 @@ public class QRCodeController {
                 "    height: 100vh;" +
                 "}" +
                 ".menu-container {" +
-                "    background-image: url('https://i.imgur.com/KGZiv9F.png');" + // Background image
-                "    background-size: cover;" + // Make the background cover the entire container
-                "    background-position: center;" + // Center the background image
-                "    border-radius: 15px;" + // Round corners
-                "    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);" + // Stronger shadow
-                "    padding: 30px;" + // Increased padding
+                "    background-image: url('https://i.imgur.com/KGZiv9F.png');" +
+                "    background-size: cover;" +
+                "    background-position: center;" +
+                "    border-radius: 15px;" +
+                "    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);" +
+                "    padding: 30px;" +
                 "    width: 400px;" +
                 "    text-align: center;" +
-                "    border: 4px solid rgba(255, 255, 255, 0.8);" + // Light border added
-                "    transition: transform 0.3s, box-shadow 0.3s;" + // Transition effects
+                "    border: 4px solid rgba(255, 255, 255, 0.8);" +
+                "    transition: transform 0.3s, box-shadow 0.3s;" +
                 "}" +
-                ".menu-container:hover {" + // Hover effect for the container
-                "    transform: translateY(-5px);" + // Slight upward movement
-                "    box-shadow: 0 12px 50px rgba(0, 0, 0, 0.5);" + // Stronger shadow on hover
+                ".menu-container:hover {" +
+                "    transform: translateY(-5px);" +
+                "    box-shadow: 0 12px 50px rgba(0, 0, 0, 0.5);" +
                 "}" +
                 "h2 {" +
-                "    color: #fff;" + // Change text color to white for better visibility
+                "    color: #FFD700;" + // Updated to a bright yellow color for better visibility
                 "    margin-bottom: 20px;" +
-                "    font-size: 30px;" + // Increased font size for visibility
-                "    font-weight: bold;" + // Bold title
-                "    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);" + // Stronger shadow for text
+                "    font-size: 32px;" + // Increased font size for the word "Menu"
+                "    font-weight: bold;" +
+                "    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);" + // Stronger shadow for better visibility
                 "    border-bottom: 2px solid #007BFF;" +
                 "    padding-bottom: 10px;" +
                 "}" +
@@ -77,33 +77,33 @@ public class QRCodeController {
                 "}" +
                 "li {" +
                 "    margin: 15px 0;" +
-                "    font-size: 20px;" + // Slightly larger font size
-                "    color: #fff;" + // Change text color to white for better visibility
+                "    font-size: 20px;" +
+                "    color: #fff;" +
                 "    display: flex;" +
                 "    align-items: center;" +
-                "    justify-content: flex-start;" + // Align items to the left
+                "    justify-content: flex-start;" +
                 "    padding: 10px;" +
-                "    border-radius: 5px;" + // Rounded corners for items
-                "    transition: background-color 0.3s;" + // Transition for hover effect
-                "    background-color: rgba(0, 0, 0, 0.6);" + // Darker background for better text visibility
+                "    border-radius: 5px;" +
+                "    transition: background-color 0.3s;" +
+                "    background-color: rgba(0, 0, 0, 0.5);" +
                 "}" +
-                "li:hover {" + // Hover effect for list items
-                "    background-color: rgba(255, 255, 255, 0.2);" + // Light background on hover
+                "li:hover {" +
+                "    background-color: rgba(255, 255, 255, 0.2);" +
                 "}" +
                 "img {" +
-                "    width: 50px;" + // Set a fixed width for the images
-                "    height: 50px;" + // Set a fixed height for the images
+                "    width: 50px;" +
+                "    height: 50px;" +
                 "    border-radius: 5px;" +
                 "    margin-right: 10px;" +
-                "    transition: transform 0.3s;" + // Transition effect for images
+                "    transition: transform 0.3s;" +
                 "}" +
-                "img:hover {" + // Hover effect for images
-                "    transform: scale(1.1);" + // Slightly enlarge the image on hover
+                "img:hover {" +
+                "    transform: scale(1.1);" +
                 "}" +
                 "span.price {" +
                 "    font-weight: bold;" +
-                "    color: #007BFF;" + // Price color
-                "    font-size: 18px;" + // Price font size
+                "    color: #007BFF;" +
+                "    font-size: 18px;" +
                 "}" +
                 "</style>" +
                 "</head>" +
@@ -111,14 +111,15 @@ public class QRCodeController {
                 "<div class='menu-container'>" +
                 "<h2>Menu</h2>" +
                 "<ul>" +
-                "<li><img src='https://images.pexels.com/photos/17184404/pexels-photo-17184404/free-photo-of-deep-fried-bread-pani-puri-with-chickpea-filling-served-with-spread.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Panipuri'> Panipuri - ₹30</li>" +
-                "<li><img src='https://images.pexels.com/photos/13063315/pexels-photo-13063315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Bhel Puri'> Bhel Puri - ₹40</li>" +
-                "<li><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrXp7d6jIeWUS6CQiajKwaWM29tBuQLRy6kYrYf7VtMhrjA12hqycSot2uBnsQy6I_tFbd5uGNhXBgaElA-hHxWCB2H-x1kb3sZQJTY4BSYDCdjSJKqsPYZkTNqNoQH8gSvCpCZ9y6kK2q/s320/IMG_20200106_183637.jpg' alt='Sev Puri'> Sev Puri - ₹40</li>" +
-                "<li><img src='https://i0.wp.com/www.tomatoblues.com/wp-content/uploads/2021/01/masala-poori-chaat-2-scaled.jpg?w=1440&ssl=1' alt='Chaat'> Chaat - ₹30</li>" +
-                "<li><img src='https://chaiandchurros.com/wp-content/uploads/2021/06/GolGappayPic-1024x1536.jpeg' alt='Sweet Puri'> Sweet Puri - ₹30</li>" +
+                "<li><img src='https://images.pexels.com/photos/17184404/pexels-photo-17184404/free-photo-of-deep-fried-bread-pani-puri-with-chickpea-filling-served-with-spread.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Panipuri'> Panipuri <span class='price'>₹30</span></li>" +
+                "<li><img src='https://images.pexels.com/photos/13063315/pexels-photo-13063315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Bhel Puri'> Bhel Puri <span class='price'>₹40</span></li>" +
+                "<li><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrXp7d6jIeWUS6CQiajKwaWM29tBuQLRy6kYrYf7VtMhrjA12hqycSot2uBnsQy6I_tFbd5uGNhXBgaElA-hHxWCB2H-x1kb3sZQJTY4BSYDCdjSJKqsPYZkTNqNoQH8gSvCpCZ9y6kK2q/s320/IMG_20200106_183637.jpg' alt='Sev Puri'> Sev Puri <span class='price'>₹40</span></li>" +
+                "<li><img src='https://i0.wp.com/www.tomatoblues.com/wp-content/uploads/2021/01/masala-poori-chaat-2-scaled.jpg?w=1440&ssl=1' alt='Chaat'> Chaat <span class='price'>₹30</span></li>" +
+                "<li><img src='https://chaiandchurros.com/wp-content/uploads/2021/06/GolGappayPic-1024x1536.jpeg' alt='Sweet Puri'> Sweet Puri <span class='price'>₹30</span></li>" +
                 "</ul>" +
                 "</div>" +
                 "</body>" +
                 "</html>";
     }
+
 }
