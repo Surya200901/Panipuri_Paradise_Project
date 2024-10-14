@@ -31,17 +31,76 @@ public class QRCodeController {
     @GetMapping("/menu")
     public String showMenu() {
         return "<html>" +
-                "<head><title>Menu</title></head>" +
+                "<head>" +
+                "<title>Menu</title>" +
+                "<link href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap' rel='stylesheet'>" +
+                "<style>" +
+                "body {" +
+                "    font-family: 'Roboto', sans-serif;" +
+                "    background-color: #f9f9f9;" +
+                "    margin: 0;" +
+                "    padding: 0;" +
+                "    display: flex;" +
+                "    justify-content: center;" +
+                "    align-items: center;" +
+                "    height: 100vh;" +
+                "}" +
+                ".menu-container {" +
+                "    background-color: #fff;" +
+                "    border-radius: 10px;" +
+                "    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);" +
+                "    padding: 20px;" +
+                "    width: 400px;" +
+                "    text-align: center;" +
+                "    border: 2px solid #ddd;" +
+                "}" +
+                "h2 {" +
+                "    color: #333;" +
+                "    margin-bottom: 20px;" +
+                "    font-size: 24px;" +
+                "    border-bottom: 2px solid #007BFF;" +
+                "    padding-bottom: 10px;" +
+                "}" +
+                "ul {" +
+                "    list-style: none;" +
+                "    padding: 0;" +
+                "    margin: 0;" +
+                "}" +
+                "li {" +
+                "    margin: 15px 0;" +
+                "    font-size: 18px;" +
+                "    color: #555;" +
+                "    display: flex;" +
+                "    align-items: center;" +
+                "    justify-content: space-between;" +
+                "    padding: 10px;" +
+                "    border-bottom: 1px solid #eee;" +
+                "}" +
+                "img {" +
+                "    width: 50px;" + // Adjust the size of the images
+                "    height: 50px;" + // Adjust the size of the images
+                "    border-radius: 5px;" +
+                "    margin-right: 10px;" +
+                "}" +
+                "span.price {" +
+                "    font-weight: bold;" +
+                "    color: #007BFF;" +
+                "}" +
+                "</style>" +
+                "</head>" +
                 "<body>" +
+                "<div class='menu-container'>" +
                 "<h2>Menu</h2>" +
                 "<ul>" +
-                "<li>Panipuri - ₹30</li>" +
-                "<li>Bhel Puri - ₹40</li>" +
-                "<li>Sev Puri - ₹40</li>" +
-                "<li>Chaat - ₹30</li>" +
-                "<li>Sweet Puri - ₹30</li>" + // Fixed the syntax error here
+                "<li><img src='https://example.com/panipuri.jpg' alt='Panipuri'> Panipuri <span class='price'>₹30</span></li>" +
+                "<li><img src='https://example.com/bhelpuri.jpg' alt='Bhel Puri'> Bhel Puri <span class='price'>₹40</span></li>" +
+                "<li><img src='https://example.com/sevpuri.jpg' alt='Sev Puri'> Sev Puri <span class='price'>₹40</span></li>" +
+                "<li><img src='https://example.com/chaat.jpg' alt='Chaat'> Chaat <span class='price'>₹30</span></li>" +
+                "<li><img src='https://example.com/sweetpuri.jpg' alt='Sweet Puri'> Sweet Puri <span class='price'>₹30</span></li>" +
                 "</ul>" +
+                "</div>" +
                 "</body>" +
                 "</html>";
     }
+
 }
