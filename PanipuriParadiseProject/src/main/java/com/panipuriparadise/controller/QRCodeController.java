@@ -13,7 +13,7 @@ public class QRCodeController {
     // End point to generate the QR code
     @GetMapping("/generate-qr")
     public String generateQRCode() {
-        String menuUrl = "https://panipuri-paradise.onrender.com/menu"; // Updated URL to the menu endpoint
+        String menuUrl = "http://localhost:8080/menu.html"; // Updated URL to the menu endpoint
         int width = 300;
         int height = 300;
         String base64Image;
