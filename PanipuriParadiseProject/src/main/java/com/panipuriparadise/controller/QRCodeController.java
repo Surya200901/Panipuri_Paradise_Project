@@ -111,11 +111,14 @@ public class QRCodeController {
                 "<div class='menu-container'>" +
                 "<h2>Menu</h2>" +
                 "<ul>" +
-                "<li><img src='https://images.pexels.com/photos/17184404/pexels-photo-17184404/free-photo-of-deep-fried-bread-pani-puri-with-chickpea-filling-served-with-spread.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Panipuri'> Panipuri - <span class='price'>&nbsp₹30</span></li>" +
-                "<li><img src='https://images.pexels.com/photos/13063315/pexels-photo-13063315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Bhel Puri'> Bhel Puri - <span class='price'>&nbsp₹40</span></li>" +
-                "<li><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrXp7d6jIeWUS6CQiajKwaWM29tBuQLRy6kYrYf7VtMhrjA12hqycSot2uBnsQy6I_tFbd5uGNhXBgaElA-hHxWCB2H-x1kb3sZQJTY4BSYDCdjSJKqsPYZkTNqNoQH8gSvCpCZ9y6kK2q/s320/IMG_20200106_183637.jpg' alt='Sev Puri'> Sev Puri - <span class='price'>&nbsp₹40</span></li>" +
-                "<li><img src='https://i0.wp.com/www.tomatoblues.com/wp-content/uploads/2021/01/masala-poori-chaat-2-scaled.jpg?w=1440&ssl=1' alt='Chaat'> Chaat - <span class='price'>&nbsp₹30</span></li>" +
-                "<li><img src='https://chaiandchurros.com/wp-content/uploads/2021/06/GolGappayPic-1024x1536.jpeg' alt='Sweet Puri'> Sweet Puri - <span class='price'>&nbsp₹30</span></li>" +
+                "<li><img src='https://images.pexels.com/photos/17184404/pexels-photo-17184404/free-photo-of-deep-fried-bread-pani-puri-with-chickpea-filling-served-with-spread.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Panipuri'> Panipuri - <span class='price'>&nbsp₹50</span></li>" +
+                "<li><img src='https://images.pexels.com/photos/13063315/pexels-photo-13063315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Bhel Puri'> Bhel Puri - <span class='price'>&nbsp₹70</span></li>" +
+                "<li><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrXp7d6jIeWUS6CQiajKwaWM29tBuQLRy6kYrYf7VtMhrjA12hqycSot2uBnsQy6I_tFbd5uGNhXBgaElA-hHxWCB2H-x1kb3sZQJTY4BSYDCdjSJKqsPYZkTNqNoQH8gSvCpCZ9y6kK2q/s320/IMG_20200106_183637.jpg' alt='Sev Puri'> Sev Puri - <span class='price'>&nbsp₹60</span></li>" +
+                "<li><img src='https://i0.wp.com/www.tomatoblues.com/wp-content/uploads/2021/01/masala-poori-chaat-2-scaled.jpg?w=1440&ssl=1' alt='Chaat'> Chaat - <span class='price'>&nbsp₹50</span></li>" +
+                "<li><img src='https://chaiandchurros.com/wp-content/uploads/2021/06/GolGappayPic-1024x1536.jpeg' alt='Sweet Puri'> Sweet Puri - <span class='price'>&nbsp₹50</span></li>" +
+                "<li><img src='http://farm9.staticflickr.com/8300/7936525536_2938532793_b.jpg' alt='Dahi Puri'> Dahi Puri - <span class='price'>&nbsp₹70</span></li>" +
+                "<li><img src='https://i0.wp.com/www.tomatoblues.com/wp-content/uploads/2021/01/masala-poori-chaat-2-scaled.jpg?w=1440&ssl=1' alt='Somosa Chaat'> Somosa Chaat - <span class='price'>&nbsp₹60</span></li>" +
+                "<li><img src='https://media-assets.swiggy.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/43083018bacb4c9a34fe817656596c0f' alt='Parcel'> Parcel - <span class='price'>&nbspExtra ₹10</span></li>" +
                 "</ul>" +
                 "</div>" +
                 "</body>" +
